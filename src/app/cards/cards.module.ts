@@ -8,13 +8,15 @@ import { ButonCardCancelComponent } from '../buton-card-cancel/buton-card-cancel
 
 
 
+
 @NgModule({
   declarations: [
     CardComponent,
     NovoCardComponent,
     ButtonCardComponent,
     ButtonNovoCardComponent,
-    ButonCardCancelComponent,
+    ButtonCardComponent,
+    ButonCardCancelComponent
   ],
   imports: [
     CommonModule
@@ -24,7 +26,8 @@ import { ButonCardCancelComponent } from '../buton-card-cancel/buton-card-cancel
     NovoCardComponent,
     ButtonCardComponent,
     ButtonNovoCardComponent,
-    ButonCardCancelComponent,
+    ButtonCardComponent,
+    ButonCardCancelComponent
   ],
 })
 export class CardsModule { }

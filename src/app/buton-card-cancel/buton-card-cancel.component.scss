@@ -1,13 +1,13 @@
-@import "src/styles.scss";
+@import "../../styles/variaveisDeEstilo";
 
-.button-card-cancel {
-    font-size: 16px; 
+.buton-card-cancel {
+    font-size: 16px;
     text-align: center;
     margin-top: 10px;
     border-radius: 25px;
-    background-color: $bgcolor;
+    background-color: $CorNovaColor;
     cursor: pointer;
     font-weight: bold;
-    padding: 10px
+    padding: 10px;
     }
   
